@@ -1,4 +1,4 @@
-# Password Cracker (Dictionary Attack)
+# Password Cracker 
 
 A simple Python script to attempt cracking **MD5, SHA1, and SHA256** password hashes using a dictionary attack.  
 
@@ -16,30 +16,30 @@ A simple Python script to attempt cracking **MD5, SHA1, and SHA256** password ha
 - Optional: `hashid` module for advanced hash detection  
   ```bash
   pip install hashid
-A dictionary file, e.g., rockyou.txt
+- A dictionary file, e.g., `rockyou.txt`
 
 
-Usage
+## Usage
 
-Place the rockyou.txt file in the same folder as the script.
+- Place the rockyou.txt file in the same folder as the script.
 
-Run the script:
-python password_cracker.py
+- Run the script:
+`python3 password_cracker.py`
 
-Enter the hash you want to crack when prompted.
+- Enter the hash you want to crack when prompted.
 
-The script will try to identify the hash type and perform a dictionary attack.
+- The script will try to identify the hash type and perform a dictionary attack.
 
-Type exit to quit the script.
-
-
-Notes
-
-Only simple dictionary attacks are supported; no brute-force functionality yet.
-
-Only MD5, SHA1, and SHA256 hashes are supported.
+- Type exit to quit the script.
 
 
-Disclaimer
+## Notes
+
+- Only simple dictionary attacks are supported; no brute-force functionality yet.
+
+- Only MD5, SHA1, and SHA256 hashes are supported.
+
+
+## Disclaimer
 
 This tool is for educational purposes only. Do not use it on unauthorized systems or passwords.
